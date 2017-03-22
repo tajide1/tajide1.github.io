@@ -1,6 +1,6 @@
 body{
-background-image:url(Assets/download.jpg);
-
+background:url(Assets/download.jpg) no-repeat;
+background-size:cover;
 }
 
 h1{
@@ -24,10 +24,26 @@ img{
     border-radius:10px;
     margin:0px auto;
     display:block;
+    max-height: 300px
 }
-#size{
-    text-transform: uppercase;
-    border: 2px solid gold;
+#Resume{
+    border:2px solid gray;
+    display:block;
+    max-height: 30px;
     border-radius: 10px;
-    margin:30%;
+    margin:inherit;
 }
+#Twitter{
+    border:2px solid lightblue;
+    display:block;
+    max-height: 30px;
+    border-radius: 10px;
+    margin:inherit;
+}
+#Intagram{
+    border:2px solid #e95950;
+    display:block;
+    max-height: 30px;
+    border-radius: 10px;
+    margin:inherit
+   }
