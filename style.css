@@ -1,6 +1,6 @@
 body {
-  background-image:url(Assets/download.jpg) ;
-  background-size: contain;
+  background:url(Assets/download.jpg) no-repeat fixed center;
+    background-size: cover;
 }
 
 #heading {
@@ -14,11 +14,15 @@ body {
   color:red;
   line-height:10px;
   position: relative;
-  bottom:-90px
+  bottom:-90px;
+  border: 3px solid red;
+  border-radius:10px;
+  opacity:0.9;
+  background-color: gold;
 }
 .navigation{
   color:red;
-  border: 3px solid green;
+  border: 4px solid #055C1F;
   max-width: 200px;
   border-radius: 10px;
   text-transform:uppercase;
@@ -27,7 +31,8 @@ body {
 }
 .navigation h3 {
     margin:-3px -4px;
-    color:darkorange
+    color:darkturquoise;
+    
 }
 
 *{
