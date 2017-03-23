@@ -1,49 +1,65 @@
-body{
-background:url(Assets/download.jpg) no-repeat;
-background-size:cover;
+body {
+  background-image:url(Assets/download.jpg) ;
+  background-size: contain;
 }
 
-h1{
-    text-align:center;
-    color:red;
-    text-transform:uppercase;
+#heading {
+  text-align:center;
+  color:red;
+  text-transform:uppercase;
 }
-h2, a {
+
+.info {
+  text-align:center;
   color:red;
   line-height:10px;
+  position: relative;
+  bottom:-90px
 }
-.info{
-    text-align:center;
+.navigation{
+  color:red;
+  border: 3px solid green;
+  max-width: 200px;
+  border-radius: 10px;
+  text-transform:uppercase;
+  resize:both;
+  overflow:auto;
+}
+.navigation h3 {
+    margin:-3px -4px;
+    color:darkorange
 }
 
 *{
-    font-family:serif,sans-serif;
+  font-family:serif,sans-serif;
 }
-img{
-    border:2px solid red;
-    border-radius:10px;
-    margin:0px auto;
-    display:block;
-    max-height: 300px
+#profilePic {
+  border:2px solid red;
+  border-radius:10px;
+  margin:-100px auto;
+  display:block;
+  max-height: 300px;
 }
-#Resume{
-    border:2px solid gray;
-    display:block;
-    max-height: 30px;
-    border-radius: 10px;
-    margin:inherit;
+.button img {
+  display:block;
+  max-height: 20px;
+  border-radius: 10px;
+  position:fixed;
+  left:7px;
+}
+#Resume {
+  border:2px solid gold;
+  bottom:70px;
+  
+
 }
 #Twitter{
-    border:2px solid lightblue;
-    display:block;
-    max-height: 30px;
-    border-radius: 10px;
-    margin:inherit;
+  border:2px solid lightblue;
+  bottom:40px;
+  
 }
-#Intagram{
-    border:2px solid #e95950;
-    display:block;
-    max-height: 30px;
-    border-radius: 10px;
-    margin:inherit
-   }
+#Instagram{
+  border:2px solid #e95950;
+  bottom:10px;
+
+}
