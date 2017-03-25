@@ -13,14 +13,13 @@ body {
   text-align:center;
   color:red;
   line-height:10px;
-  position: relative;
-  bottom:-90px;
   border: 3px solid red;
   border-radius:10px;
   opacity:0.9;
   background-color: gold;
-  resize:both;
-  min-width: 500px;
+  width: 500px;
+  margin:auto;
+    
 }
 .navigation{
   color:red;
@@ -28,12 +27,12 @@ body {
   width:200px;
   border-radius: 10px;
   text-transform:uppercase;
-  resize:both;
     position: relative;
     z-index:3;
     background-color: darkolivegreen;
     opacity: 0.6;
     text-align: left;
+    float:left;
 }
 .navigation h3 {
     color:darkturquoise;
@@ -46,10 +45,15 @@ body {
 #profilePic {
   border:2px solid red;
   border-radius:10px;
-  margin:-100px auto;
-  display:block;
   max-height: 300px;
+  width:300px;
   opacity:0.9;
+  display: block;
+  margin:  auto;
+  position:relative;
+  left:-100px;
+    
+    
 }
 .button img {
   display:block;

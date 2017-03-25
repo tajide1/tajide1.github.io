@@ -1,0 +1,27 @@
+body {
+    background:url(Assets/UMD_campus.png) no-repeat fixed center;
+    background-size: cover;
+    
+}
+#heading {
+    text-align:center;
+    color:red;
+    background-color: skyblue;
+    width:290px;
+    margin:auto;
+    opacity:0.8;
+    text-transform:uppercase;
+}
+.container {
+    background-color: black;
+    margin:auto;
+    resize: both;
+    opacity:0.8;
+}
+
+#discription {
+    color:green;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
