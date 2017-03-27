@@ -6,22 +6,26 @@ body {
 #heading {
     text-align:center;
     color:red;
-    background-color: skyblue;
     width:290px;
     margin:auto;
-    opacity:0.8;
     text-transform:uppercase;
 }
 .container {
-    background-color: black;
+    background-color:rgba(9,1,1,0.6);
     margin:auto;
     resize: both;
-    opacity:0.8;
 }
 
 #discription {
     color:green;
     text-transform: capitalize;
     text-align: center;
-    
+
+}
+.orderList {
+    color:sandybrown;
+}
+#one {
+    position: relative;
+    top:-10px;
 }

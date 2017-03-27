@@ -1,6 +1,8 @@
 body {
   background:url(Assets/download.jpg) no-repeat fixed center;
     background-size: cover;
+    margin: 0;
+    padding:0;
 }
 
 #heading {
@@ -53,7 +55,6 @@ body {
   position:relative;
   left:-100px;
     
-    
 }
 .button img {
   display:block;
@@ -77,4 +78,18 @@ body {
   border:2px solid #e95950;
   bottom:10px;
 
+}
+.link:link {
+    color:red;
+    text-decoration: none;
+}
+.link:visited {
+    color:blue;
+}
+.link:hover {
+    color:black;
+    text-decoration: underline;
+}
+.link:active {
+    color:purple;
 }
